@@ -96,17 +96,114 @@ a {
         
 } */
 
-teste
+
 
 
 /* ------------------------------ Seção Sobre mim ----------------------------------*/
+.sobre-mim{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
 
+    width: 1136px;
+    height: 255px;    
+}
 
+.area_SobreMimTexto{
+    width: 751px;
+    height: 133px;
+}
+.sobre-mim__texto{
+text-align: justify;
+}
 /*------------------------------ Seção de Habilidades ------------------------------*/
+.habilidades{
+    width: 1136px;
+    height: 244px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.area_habilidade_titulo{
+    
+    text-align: center;
+}
 
+.habilidades__titulo{
+align-items: center;
+justify-content: center;
+}
+
+.habilidades__lista{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.habilidades__elemento{
+    width: 176px;
+    height: 174px;
+    background-color: var(--cor-de-fundo-menu);
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 10px;
+    justify-content: end;    
+}
+
+.habilidades__icone{
+    width: 50px;
+    height: 37px;
+    /* object-fit: 0; */
+    
+}
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
 
+.hobbies{
+    width: 1136px;
+    height: 244px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.area_hobbies_titulo{
+    
+    text-align: center;
+}
+
+.hobbies__titulo{
+align-items: center;
+justify-content: center;
+}
+
+.hobbies__lista{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.hobbies__elemento{
+    width: 176px;
+    height: 174px;
+    background-color: var(--cor-de-fundo-menu);
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 10px;
+    justify-content: end;    
+}
+
+.hobbies__icone{
+    width: 50px;
+    height: 37px;
+    /* object-fit: 0; */
+    
+}
 
 /*------------------------------ Seção de Projetos --------------------------------*/
 
