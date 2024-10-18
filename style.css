@@ -74,12 +74,32 @@ a {
 
     width: 1136px;
     height: 368px;
+    gap: 50px;
 }
 
 .apresentacao__conteiner{
     align-items: start;
+   
     
 }
+
+.apresentacao__titulo{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61.5px;
+}
+
+.apresentacao__subtitulo{
+
+}
+
+.apresentacao__foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 75px;
+}
+
+
 
 
 .redes{
@@ -101,14 +121,15 @@ a {
 
 /* ------------------------------ Seção Sobre mim ----------------------------------*/
 .sobre-mim{
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     
     align-items: start;
 
     width: 1136px;
-    height: 255px;    
+    height: 400px;    
 }
 
 .area_SobreMimTexto{
@@ -121,7 +142,7 @@ text-align: justify;
 /*------------------------------ Seção de Habilidades ------------------------------*/
 .habilidades{
     width: 1136px;
-    height: 244px;
+    height: 300px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -163,9 +184,10 @@ justify-content: center;
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
 
+
 .hobbies{
     width: 1136px;
-    height: 244px;
+    height: 344px;
     margin-top: 75px;
     display: flex;
     flex-direction: column;
@@ -185,6 +207,7 @@ justify-content: center;
 .hobbies__lista{
     display: flex;
     gap: 25px;
+    justify-content: center;
     
 }
 
@@ -205,13 +228,105 @@ justify-content: center;
     
 }
 
+/* Formacao */
+
+.formacao{    
+        width: 1136px;
+        height: 544px;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+}
+
+.formacao__titulo{
+    text-align: center;
+}
+
+.formacao__lista{  
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacao__elemento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+
 /*------------------------------ Seção de Projetos --------------------------------*/
 
 
 /*------------------------------ Seção de Contato ---------------------------------*/
+.contato{
+    display: flex;
+    gap: 16px;
+    width: 1136px;
+    height: 660px;
+    
+}
 
+.contato__imagem{
+    width: 464px;
+    height: 593px;   
+}
+
+.contato__form{
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    height: 596px;    
+}
+
+.contato__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contato__campo{
+    background-color: var(--cor-de-fundo-menu);
+    border-radius: 4px;
+    height: 56px;
+    width: 645px;
+}
+
+.contato__campo--textarea{
+    background-color: var(--cor-de-fundo-menu);
+    border-radius: 4px;
+    height: 133px;
+    width: 645px;
+}
+
+.contato__botao{
+    background-color: #2A7AE4;
+    width: 165px;
+    height: 51px;
+    padding: 16px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    
+    
+}
 
 /* ------------------------------ Responsividade ---------------------------------------*/
+
+/* Footer */
+.rodape{
+    width: 1136px;
+    height: 102px;
+    background-color: var(--cor-de-fundo-menu);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 100px;
+}
 
 /* Tablets e telas maiores */
 @media (min-width: 768px) {
